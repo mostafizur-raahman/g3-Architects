@@ -276,8 +276,9 @@
 .histroy-award:hover {
     height: 210px;
     width: 250px;
-    border-radius: 5px solid var(--color-dark);
-    background-color: rgb(19, 139, 244);
+    border-radius: 25px;
+    background-color: rgb(118, 190, 252);
+    font-weight: bolder;
 
 }
 
@@ -297,7 +298,7 @@
 ----------------------------------------------------- */
 .our-sponsor-container {
     width: 100%;
-    height: 200px;
+    height: 100px;
 
 }
 
@@ -336,4 +337,58 @@
 
 .sponsor-names {
     padding: 60px;
+}
+
+/* meaningfull section */
+.client img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.client {
+    border: 2px solid var(--btn-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 3px var(--color-dark);
+}
+
+.client-review {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0 120px;
+    margin-bottom: 40px;
+
+}
+
+.client-title {
+    margin: 0 500px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.client p {
+    color: var(--color-dark);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/*  footer */
+.footer {
+    height: 100px;
+    width: 100%;
+}
+
+.footer p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    height: 60px;
+    width: 60%;
+    margin: 0 auto;
+    color: var(--color-dark);
+
 }
